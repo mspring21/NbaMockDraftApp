@@ -1,0 +1,22 @@
+C:\Users\MSpring\Desktop\Side Project\NBA Draft App Side Project\NBA Draft App Side Project\bin\Debug\netcoreapp2.2\NBA Draft App Side Project.deps.json
+C:\Users\MSpring\Desktop\Side Project\NBA Draft App Side Project\NBA Draft App Side Project\bin\Debug\netcoreapp2.2\NBA Draft App Side Project.runtimeconfig.json
+C:\Users\MSpring\Desktop\Side Project\NBA Draft App Side Project\NBA Draft App Side Project\bin\Debug\netcoreapp2.2\NBA Draft App Side Project.runtimeconfig.dev.json
+C:\Users\MSpring\Desktop\Side Project\NBA Draft App Side Project\NBA Draft App Side Project\bin\Debug\netcoreapp2.2\NBA Draft App Side Project.dll
+C:\Users\MSpring\Desktop\Side Project\NBA Draft App Side Project\NBA Draft App Side Project\bin\Debug\netcoreapp2.2\NBA Draft App Side Project.pdb
+C:\Users\MSpring\Desktop\Side Project\NBA Draft App Side Project\NBA Draft App Side Project\obj\Debug\netcoreapp2.2\NBA Draft App Side Project.csproj.CoreCompileInputs.cache
+C:\Users\MSpring\Desktop\Side Project\NBA Draft App Side Project\NBA Draft App Side Project\obj\Debug\netcoreapp2.2\NBA Draft App Side Project.AssemblyInfoInputs.cache
+C:\Users\MSpring\Desktop\Side Project\NBA Draft App Side Project\NBA Draft App Side Project\obj\Debug\netcoreapp2.2\NBA Draft App Side Project.AssemblyInfo.cs
+C:\Users\MSpring\Desktop\Side Project\NBA Draft App Side Project\NBA Draft App Side Project\obj\Debug\netcoreapp2.2\NBA Draft App Side Project.dll
+C:\Users\MSpring\Desktop\Side Project\NBA Draft App Side Project\NBA Draft App Side Project\obj\Debug\netcoreapp2.2\NBA Draft App Side Project.pdb
+C:\Users\MSpring\Desktop\Side Project\NBA Draft App Side Project\NBA Draft App Side Project\obj\Debug\netcoreapp2.2\NBA Draft App Side Project.csprojAssemblyReference.cache
+C:\Users\MSpring\Desktop\Side Project\NbaMockDraftApp\NBA Draft App Side Project\bin\Debug\netcoreapp2.2\NBA Draft App Side Project.deps.json
+C:\Users\MSpring\Desktop\Side Project\NbaMockDraftApp\NBA Draft App Side Project\bin\Debug\netcoreapp2.2\NBA Draft App Side Project.runtimeconfig.json
+C:\Users\MSpring\Desktop\Side Project\NbaMockDraftApp\NBA Draft App Side Project\bin\Debug\netcoreapp2.2\NBA Draft App Side Project.runtimeconfig.dev.json
+C:\Users\MSpring\Desktop\Side Project\NbaMockDraftApp\NBA Draft App Side Project\bin\Debug\netcoreapp2.2\NBA Draft App Side Project.dll
+C:\Users\MSpring\Desktop\Side Project\NbaMockDraftApp\NBA Draft App Side Project\bin\Debug\netcoreapp2.2\NBA Draft App Side Project.pdb
+C:\Users\MSpring\Desktop\Side Project\NbaMockDraftApp\NBA Draft App Side Project\obj\Debug\netcoreapp2.2\NBA Draft App Side Project.csprojAssemblyReference.cache
+C:\Users\MSpring\Desktop\Side Project\NbaMockDraftApp\NBA Draft App Side Project\obj\Debug\netcoreapp2.2\NBA Draft App Side Project.csproj.CoreCompileInputs.cache
+C:\Users\MSpring\Desktop\Side Project\NbaMockDraftApp\NBA Draft App Side Project\obj\Debug\netcoreapp2.2\NBA Draft App Side Project.AssemblyInfoInputs.cache
+C:\Users\MSpring\Desktop\Side Project\NbaMockDraftApp\NBA Draft App Side Project\obj\Debug\netcoreapp2.2\NBA Draft App Side Project.AssemblyInfo.cs
+C:\Users\MSpring\Desktop\Side Project\NbaMockDraftApp\NBA Draft App Side Project\obj\Debug\netcoreapp2.2\NBA Draft App Side Project.dll
+C:\Users\MSpring\Desktop\Side Project\NbaMockDraftApp\NBA Draft App Side Project\obj\Debug\netcoreapp2.2\NBA Draft App Side Project.pdb
