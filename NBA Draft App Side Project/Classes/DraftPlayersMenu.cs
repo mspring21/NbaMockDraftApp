@@ -11,36 +11,37 @@ namespace NBA_Draft_App_Side_Project.Classes
         public DraftPlayersMenu(DraftPoolPlayers mock) : base(mock)
         {
             this.Title = "*** You Are Officially on the Clock! ***";
+            this.menuOptions.Add("00", "Show Picks Made!");
             this.menuOptions.Add("1", "New Orleans Pelicans");
             this.menuOptions.Add("2", "Memphis Grizzles");
-            this.menuOptions.Add("4", "New York Knicks");
-            this.menuOptions.Add("5", "Los Angeles Lakers");
-            this.menuOptions.Add("6", "Cleveland Cavaliers");
-            this.menuOptions.Add("7", "Phenoix Suns");
-            this.menuOptions.Add("8", "Chichago Bulls");
-            this.menuOptions.Add("9", "Atlanta Hawks");
-            this.menuOptions.Add("10", "Washington Wizards");
-            this.menuOptions.Add("11", "Dallas Mavericks");
-            this.menuOptions.Add("12", "Minnesota TimberWolves");
-            this.menuOptions.Add("13", "Charlotte Hornets");
-            this.menuOptions.Add("14", "Miami Heat");
-            this.menuOptions.Add("15", "Sacromento Kings");
-            this.menuOptions.Add("16", "Boston Celtics");
-            this.menuOptions.Add("17", "Detroit Pistons");
-            this.menuOptions.Add("18", "Orlando Magic");
-            this.menuOptions.Add("19", "Brooklyn Nets");
-            this.menuOptions.Add("20", "Indiana Pacers");
-            this.menuOptions.Add("21", "San Antonio Spurs");
-            this.menuOptions.Add("22", "Los Angeles Clippers");
-            this.menuOptions.Add("23", "Oklahoma Thunder");
-            this.menuOptions.Add("24", "Utah Jazz");
-            this.menuOptions.Add("25", "Philadelphia 76ers");
-            this.menuOptions.Add("26", "Portland Trailblazers");
-            this.menuOptions.Add("27", "Houston Rockets");
-            this.menuOptions.Add("28", "Denver Nuggets");
-            this.menuOptions.Add("29", "Golden State Warriors");
-            this.menuOptions.Add("30", "Milwaukee Bucks");
-            this.menuOptions.Add("31", "Toronto Raptors");
+            this.menuOptions.Add("3", "New York Knicks");
+            this.menuOptions.Add("4", "Los Angeles Lakers");
+            this.menuOptions.Add("5", "Cleveland Cavaliers");
+            this.menuOptions.Add("6", "Phenoix Suns");
+            this.menuOptions.Add("7", "Chichago Bulls");
+            this.menuOptions.Add("8", "Atlanta Hawks");
+            this.menuOptions.Add("9", "Washington Wizards");
+            this.menuOptions.Add("10", "Dallas Mavericks");
+            this.menuOptions.Add("11", "Minnesota TimberWolves");
+            this.menuOptions.Add("12", "Charlotte Hornets");
+            this.menuOptions.Add("13", "Miami Heat");
+            this.menuOptions.Add("14", "Sacromento Kings");
+            this.menuOptions.Add("15", "Boston Celtics");
+            this.menuOptions.Add("16", "Detroit Pistons");
+            this.menuOptions.Add("17", "Orlando Magic");
+            this.menuOptions.Add("18", "Brooklyn Nets");
+            this.menuOptions.Add("19", "Indiana Pacers");
+            this.menuOptions.Add("20", "San Antonio Spurs");
+            this.menuOptions.Add("21", "Los Angeles Clippers");
+            this.menuOptions.Add("22", "Oklahoma Thunder");
+            this.menuOptions.Add("23", "Utah Jazz");
+            this.menuOptions.Add("24", "Philadelphia 76ers");
+            this.menuOptions.Add("25", "Portland Trailblazers");
+            this.menuOptions.Add("26", "Houston Rockets");
+            this.menuOptions.Add("27", "Denver Nuggets");
+            this.menuOptions.Add("28", "Golden State Warriors");
+            this.menuOptions.Add("29", "Milwaukee Bucks");
+            this.menuOptions.Add("30", "Toronto Raptors");
             this.menuOptions.Add("Q", "Quit");
         }
 
@@ -168,10 +169,12 @@ namespace NBA_Draft_App_Side_Project.Classes
                     Console.Clear();
                     pick.MakeSelectionForTeam(choice);
                     return true;
-                case "31":
+                case "00":
                     Console.Clear();
-                    pick.MakeSelectionForTeam(choice);
+                    pick.displayTheDraftChoices();
+                    Pause("");
                     return true;
+
             }
             return true;
         }

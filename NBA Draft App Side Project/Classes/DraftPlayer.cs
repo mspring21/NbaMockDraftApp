@@ -6,6 +6,7 @@ namespace NBA_Draft_App_Side_Project.Classes
 {
     public class DraftPlayer 
     {
+        List<string> picksMade = new List<string>();
         public void MakeSelectionForTeam(string choice)
         {
             DraftPoolPlayers draft = new DraftPoolPlayers();
@@ -28,7 +29,7 @@ namespace NBA_Draft_App_Side_Project.Classes
 
                 if (draft.draftPool.Contains(prospect))
                 {
-                    Console.WriteLine($"***With the BLANK pick in the NBA Draft the {teams[int.Parse(choice)]} select {prospect}!***");
+                    Console.WriteLine($"***With the BLANK pick in the NBA Draft the {teams[int.Parse(choice) - 1]} select {prospect}!***");
                     Console.ReadKey();
                 }
                 else if (!draft.draftPool.Contains(prospect))
@@ -36,6 +37,15 @@ namespace NBA_Draft_App_Side_Project.Classes
                     Console.WriteLine("Oh no.... Sorry rook that prospect isnt draft eligable... you gotta study more kid!");
                     Console.ReadKey();
                 }
+            picksMade.Add(teams[int.Parse(choice) - 1] + " picked " + prospect);
+        }
+
+        public void displayTheDraftChoices()
+        {
+            foreach(string draftPickAndTeam in picksMade)
+            {
+                Console.WriteLine($"{draftPickAndTeam}");
+            }
         }
     }
 }
